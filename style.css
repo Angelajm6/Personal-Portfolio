@@ -66,14 +66,14 @@ body{
     flex-direction:column;
     align-items:center;
     position:absolute;
-    top:30%;
-    right:10%;
+    top:20%;
+    right:20%;
 }
 
 .name h1{
     display:left;
     font-size:45px;
-    margin-top:20px;
+    margin-top:85px;
     text-align: center;
 }
 
@@ -83,10 +83,21 @@ body{
 
 .my-picture{
     float:left;
-    margin-right:1em;
-    border-radius:30px;
+    margin-top:6em;
+   margin-left:4em;
+    border-radius:40px;
     width:35%;
-    flex-basis:35%;
+   
+   
 }
 
-/*---------Main Section--------*/
+/*---------About-me Section--------*/
+.about-me{
+display:flex;
+flex-direction:column;
+}
+
+
+
+
+
