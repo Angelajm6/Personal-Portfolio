@@ -1,7 +1,7 @@
 *{
     margin:0px;
     padding:0px;
-    font-family: "sans-serif";
+    font-family: "century";
     box-sizing:border-box;
 }
 
@@ -23,7 +23,7 @@ body{
     display:flex;
     list-style-type:none;
     margin:30px 0px;
-    gap:1rem;
+    gap:4rem;
 }
 
 #header ul li a{
@@ -54,18 +54,39 @@ body{
 .button:hover{
     transform:scale(1.2);
 }
- /*----------sidebar----------*/
-
+ /*----------My intro----------*/
 .name{
-display:flex;
-flex-direction:column;
-justify-content:center;
+    display:flex;
+    flex-direction:column;
+}
 
+.home{
+    height:840px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:absolute;
+    top:30%;
+    right:10%;
+}
+
+.name h1{
+    display:left;
+    font-size:45px;
+    margin-top:20px;
+    text-align: center;
+}
+
+.name h1 span{
+    color: rgb(164, 227, 166);
 }
 
 .my-picture{
-border-radius:30px;
-max-width: 250px;
-display:right;
+    float:left;
+    margin-right:1em;
+    border-radius:30px;
+    width:35%;
+    flex-basis:35%;
 }
 
+/*---------Main Section--------*/
