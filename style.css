@@ -5,10 +5,40 @@
 }
 
 body{
-    background:rgb(3, 13, 44);
+    background:rgb(2, 12, 39);
+    color:white;
+}
+
+#header{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+
+#header ul{
+    display:flex;
+    list-style:none;
+    margin:20px 0px;
+    gap:2rem;
+}
+
+#header ul li a{
+   font-size:20px;
+   font-weight:bold;
+   text-decoration:none;
+   color:burlywood;
+   padding:8px 25px;
+}
+
+#header ul li a:hover{
     color:white;
 }
 
 .name{
 display:flex;
+flex-direction:column;
+justify-content:center;
+
 }
+
