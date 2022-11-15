@@ -54,25 +54,13 @@ body{
 .button:hover{
     transform:scale(1.3);
 }
+
  /*----------My intro----------*/
 .name{
     display:flex;
     flex-direction:column;
-}
-
-.home{
-    height:840px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    position:absolute;
-    top:20%;
-    right:20%;
-}
-.home p{
-    font-size:25px;
-    padding:10px;
-
+   border:1px solid;
+   padding:10px;
 }
 
 .name h1{
@@ -86,7 +74,24 @@ body{
     color: rgb(164, 227, 166);
 }
 
-.my-picture{
+.home{
+    height:840px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:absolute;
+    top:20%;
+    right:20%;
+}
+
+.home p{
+    font-size:25px;
+    padding:10px;
+
+}
+
+/*------------About-me-------------*/
+.about-me img{
     float:left;
     margin-top:6em;
     margin-left:10em;
@@ -94,13 +99,23 @@ body{
     width:25%;
 }
 
-/*---------About-me Section--------*/
 .about-me{
     display:flex;
     flex-direction:column;
     margin:50px;
 }
 
+.about-me h1{
+    color:rgb(164, 227, 166);
+    display:flex;
+}
+
+.about-me p{
+    margin:20px;
+
+}
+
+/*-----------Main Section----------*/
 .headings{
     background-color:rgb(164, 227, 166);
     text-align:center;
@@ -108,10 +123,6 @@ body{
     margin:10px;
 }
 
-.about-me p{
-    margin:20px;
-
-}
 
 
 
