@@ -43,11 +43,12 @@ body{
 
 .button{
     font-size:25px;
+    margin-left:75px;
     background-color:rgb(37 156 186);
     color:white;
     text-decoration:none;
-    border: 1px solid transparent;
     padding:10px 10px;
+    border: 1px solid transparent;
     border-radius:20px;
 }
 
