@@ -5,6 +5,10 @@
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     background:black;
     color:white;
@@ -106,11 +110,12 @@ body{
 }
 
 /*------------About-me-------------*/
+
 .about-me{
     width:50%;
     flex-direction:column;
     margin:700px;
-   margin-top:550px;
+    margin-top:550px;
     border:25px solid black;
     background-color:black;
     border-radius: 50px;
@@ -119,65 +124,113 @@ body{
 .about-me h1{
     color:rgb(37 156 186);
     display:flex;
+    margin-left:10px;
 }
 
 .about-me p{
     margin:15px;
-   font-size:18px;
+   font-size:20px;
+   line-height:1.5;
 }
 
 /*-----------Main Section----------*/
 .headings{
     background-color:rgb(37 156 186);
     text-align:center;
-    padding:10px;
-    margin:10px;
+    padding:15px;
+    margin-top:30px;
+    font-size:30px;
 }
 
-
-.container{
-    display:flex;
-    flex-direction:column;
-    box-sizing:border-box;
-    padding:20px;
-    margin-bottom:50px;
-}
-
-/*--------------Skills----------*/
+/*---------------Section-1------------*/
 .section-1{
-
+    flex-direction:row;
+    height:600px;
+   justify-content:stretch
 }
 
-.section-1 h2{
-    font-size:2rem;
-    margin-bottom:20px;
-}
-
-.section-1 img{
- width:20%;
-float:right;
-   margin-right:300px;
-   margin-top:30px;
-   margin-bottom:40px;
-border-radius:18px; 
-}
-
-.languages{
-    display:flex;
-    flex-direction:column;
-    padding:40px;
+.portrait{
+    width:20%;
+    margin-right:350px;
+    margin-top:40px;
+    border-radius:20px; 
+    opacity:.9;
+   float:right;
 }
 
 .languages ul{
-   font-size:45px;
-   margin-top:70px;
-  align-self:center;
+    font-size:45px;
+    color:rgb(37 156 186);
+   padding:180px;
+   margin-left:250px;
 }
 
-.languages ul li{
-   color:rgb(37 156 186);
+.languages ul li:hover{;
+    box-shadow:0 0 30px white;
 }
 
+/*----------------section 2--------------*/
+.section-2{
+    justify-content:space-around;
+    box-sizing:border-box;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.section-2 img{
+   width:360px;
+   height:240px;
+   margin:10px;
+}
+
+/*----------------section 3--------------*/
+.section-3{
+  
+}
+
+#Contact{
+  display:flex;
+  flex-direction:column;
+  box-sizing:border-box;
+  background-color:rgba(0 0 0 0.9);
+  color:white;  
+  padding:20px;
+} 
+.form{
+    display:flex;
+    flex-direction:column;
+    box-sizing:border-box;
+    align-items:center;
+    margin:20px 0px;
+} 
+
+.input{
+    padding:12px;
+    margin:15px;
+    width:30%;
+    border:none;
+    outline:none;
+}
+.msg{
+    width:20%;
+    padding:10px;
+    margin:15px;
+    border:none;
+    outline:none;
+}
+
+#send{
+    padding:10px;
+    width:10%;
+    margin:40px;
+    border:none;
+    outline:none;
+}
+
+#send:hover{
+    cursor:pointer;
+    box-shadow:0 0 10px white;
+}
 
 
 
