@@ -152,7 +152,7 @@ body{
 .portrait{
     width:20%;
     margin-right:350px;
-    margin-top:40px;
+    margin-top:60px;
     border-radius:20px; 
     opacity:.9;
    float:right;
@@ -174,13 +174,15 @@ body{
     justify-content:space-around;
     box-sizing:border-box;
     flex-wrap:wrap;
-    align-items:center;
+   
 }
 
 .section-2 img{
-   width:360px;
-   height:240px;
-   margin:10px;
+   width:450px;
+   height:300px;
+   margin:60px;
+   margin-top:90px;
+   margin-bottom:90px;
 }
 
 /*----------------section 3--------------*/
@@ -229,7 +231,7 @@ body{
 
 #send:hover{
     cursor:pointer;
-    box-shadow:0 0 10px white;
+    box-shadow:0 0 20px white;
 }
 
 
