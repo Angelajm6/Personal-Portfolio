@@ -164,9 +164,13 @@ body{
    padding:180px;
    margin-left:250px;
 }
+.languages ul li{
+   max-width:fit-content;
+}
 
-.languages ul li:hover{;
+.languages ul li:hover{
     box-shadow:0 0 30px white;
+   
 }
 
 /*----------------section 2--------------*/
