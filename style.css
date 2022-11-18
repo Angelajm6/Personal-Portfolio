@@ -170,14 +170,14 @@ body{
 }
 
 /*----------------section 2--------------*/
-.section-2{
+#projects{
     justify-content:space-around;
     box-sizing:border-box;
     flex-wrap:wrap;
    
 }
 
-.section-2 img{
+#projects img{
    width:450px;
    height:300px;
    margin:60px;
@@ -186,9 +186,6 @@ body{
 }
 
 /*----------------section 3--------------*/
-.section-3{
-  
-}
 
 #Contact{
   display:flex;
@@ -241,7 +238,7 @@ body{
     text-align:center;
     margin-top:40px;
     font-size:15px;
-    padding:25px 0;
+    padding:40px 0;
     background:#262626;
 }
 
