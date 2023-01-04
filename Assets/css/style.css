@@ -42,7 +42,7 @@ body{
 #header ul li a:hover{
     color:rgb(37 156 186);
     transition:0.4s;
-    box-shadow:0 0 15px;
+    box-shadow:0 0 20px white;
 }
 
 .button{
@@ -67,7 +67,11 @@ body{
     border:1px solid;
     padding:10px;
     margin-top:10px;
-    background:url('Images/Background-img.JPG') no-repeat center center/cover;
+    background-image:url('../Images/Background-img.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: center;
     height:800px;
     z-index: -1;
     opacity:.9;
@@ -181,13 +185,37 @@ body{
    
 }
 
-#projects img{
-   width:450px;
-   height:300px;
-   margin:60px;
-   margin-top:90px;
-   margin-bottom:90px;
+.img-1{
+    display: block;
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   padding: 10px;
+   border-radius: 20px;
+   border: 1px solid white;
 }
+
+.img-2, .img-3 {
+   display:flex;
+   margin-top:40px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom:100px;
+   padding:5px;
+   width:30%;
+   border-radius: 20px;
+   border: 1px solid white;
+}
+
+.img-1:hover,
+.img-2:hover,
+.img-3:hover {
+    box-shadow:0 0 30px white;
+    cursor:pointer;
+}
+
 
 /*----------------section 3--------------*/
 
