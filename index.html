@@ -5,18 +5,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Personal Portfolio</title>
         <link rel="stylesheet" href="./Assets/css/style.css">
-    </head>
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/89dff8beaf.js" crossorigin="anonymous"></script>
     <body>
-<!-----------Sidebar---------->
+<!-----------Sidebar----------->
+     <div class="container-1">
         <div id="header">
             <ul>
-                <li><a href="#about-me"><strong>About</strong></a></li>
-                <li><a href="#main-section"><strong>Skills</strong></a></li>
-                <li><a href="#projects"><strong>Projects</strong></a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#main-section">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
             <a href="#contact"class="button">Contact Me</a>
         </div>
+
+<!------------Navbar---------->
+        <nav>
+            <ul>
+                <li><a href="https://www.instagram.com/angelajaume/"><i class="fa-brands fa-instagram" id="icon"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/angela-jaume/"><i class="fa-brands fa-linkedin" id="icon"></i></a></li>
+                <li><a href="https://github.com/Angelajm6"><i class="fa-brands fa-github" id="icon"></i></a></li>
+                <li><a href="mailto:angelajaume.m@gmail.com"><i class="fa-solid fa-envelope" id="icon"></i></a></li>
+            </ul>
+
+        </nav>
 
 <!---------My intro------------->
         <section class="name">
@@ -30,13 +44,14 @@
                 <p>I'm a Full-Stack software engineer based in New York. I have a very creative mind and I enjoy designing nice looking websites with the help of my deeply loved CSS. Check my projects out if you would like to know more about my work! </p>
             </div> 
         </section>
-            
+    </div>
+
 <!---------Main Sections--------->
         <main> 
             <section id="main-section">
                 <div class="section-1">
                     <h2 class="headings">SKILLS</h2>
-                    <img class="portrait" src="./Assets/Images/Portfolio.jpg" alt="A portrait">
+                    <img class="portrait" src="./Assets/Images/portfolio.png" alt="A portrait">
                     <div class="languages">
                         <ul>
                             <li>HTML</li>
@@ -48,7 +63,7 @@
                 </div>
 
                 <div id="projects">
-                    <h2 class="headings">PROJECTS</h2>
+                    <h2 class="headings">LATEST PROJECTS</h2>
                     <div>
                         <a href="https://savitamanchanda.github.io/Travel-Hub/"><img class="img-1" src="./Assets/Images/travelHub.png" alt="Homepage of my deployed travel website"></a>
                         <a href="https://recipe-health-guru.herokuapp.com/"><img class="img-1" src="./Assets/Images/Health Recipe Guru.png" alt="Homepage of my delpoyed healthy recipe application"></a>
