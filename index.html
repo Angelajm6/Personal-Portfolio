@@ -9,13 +9,16 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/89dff8beaf.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    </head>
+
     <body>
 <!-----------Sidebar----------->
      <div class="container-1">
         <div id="header">
-            <ul>
-                <li><a href="#about-me">About</a></li>
-                <li><a href="#main-section">Skills</a></li>
+            <ul class="sidebar">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
             </ul>
             <a href="#contact"class="button">Contact Me</a>
@@ -29,67 +32,89 @@
                 <li><a href="https://github.com/Angelajm6"><i class="fa-brands fa-github" id="icon"></i></a></li>
                 <li><a href="mailto:angelajaume.m@gmail.com"><i class="fa-solid fa-envelope" id="icon"></i></a></li>
             </ul>
-
         </nav>
 
 <!---------My intro------------->
         <section class="name">
             <div class="box-1">
                 <h1>Hi, I am <br><span>Angela Jaume</span></h1>
-                <p>Full-Stack Software Engineer</p>
+                <p class="title">Full-Stack Software Engineer</p>
+            <a class="download" href="./Assets/Images/Download-Resume.pdf">Download My Resume</a>
+            </div>
+        </section>
+    
+<!---------Main Sections--------->
+        <section id="main-section">
+                <h2 class="headings" id="about-me">ABOUT ME</h2>
+                <div class="section-1">
+                <p>I'm a Full-Stack software engineer based in New York. 
+                    I have a very creative mind and I enjoy designing nice looking websites. Check out my projects if you would like to know more about my work! </p>
+                </div>
+
+            <div class="section-2">
+                 <h2 class="headings" id="skills">SKILLS</h2>
+             <div class="container-2">
+                   <div class="skill-box">
+                     <div class="skill-title">
+                          <div class="img">
+                            <img src="./Assets/Images/HTML5.png" class="skill-icon" alt="HTML 5 logo">
+                         </div>
+                         <h3>HTML 5</h3>  
+                     </div>
+                  </div>
+                 <div class="skill-box">
+                     <div class="skill-title">
+                         <div class="img">
+                            <img src="./Assets/Images/CSS.png" class="skill-icon" alt="CSS 3 logo">
+                          </div>
+                          <h3>CSS 3</h3>  
+                     </div>
+                 </div>
+                 <div class="skill-box">
+                     <div class="skill-title">
+                         <div class="img">
+                            <img src="./Assets/Images/JS.png" class="skill-icon" alt="JavaScript logo">
+                          </div>
+                         <h3>JavaScript</h3>  
+                      </div>
+                 </div>
+                 <div class="skill-box">
+                       <div class="skill-title">
+                          <div class="img">
+                            <img src="./Assets/Images/MySQL.png" class="skill-icon" alt="MySQL logo">
+                            </div>
+                          <h3>MySQL</h3>  
+                        </div>
+                 </div>
+             </div>
+             </div>
+
+            <div class="container-3" id="projects">
+                   <h2 class="headings">LATEST PROJECTS</h2>
+                  <div>
+                    <a href="https://savitamanchanda.github.io/Travel-Hub/"><img class="img-1" src="./Assets/Images/travelHub.png" alt="Homepage of my deployed travel website"></a>
+                    <a href="https://recipe-health-guru.herokuapp.com/"><img class="img-1" src="./Assets/Images/Health Recipe Guru.png" alt="Homepage of my delpoyed healthy recipe application"></a>
+                    <a href="https://angelajm6.github.io/Calendar-application/"><img class="img-2" src="./Assets/Images/calendar.png" alt="Homepage of my deployed calendar application"></a>
+                    <a href="https://angelajm6.github.io/Its_brickoutside/"><img class="img-3" src="./Assets/Images/weatherapp.png" alt="Homepage of my delpoyed weather application"></a>
+                </div>
             </div>
 
-            <div class="about-me" id="about-me">
-                <h1>ABOUT ME</h1>
-                <p>I'm a Full-Stack software engineer based in New York. I have a very creative mind and I enjoy designing nice looking websites with the help of my deeply loved CSS. Check my projects out if you would like to know more about my work! </p>
-            </div> 
+             <div class="container-4" id="contact">
+                <h2 class="headings">CONTACT</h2>
+                <form action="" class="form">
+                    <input type="text" name="name" class="input" placeholder="Enter Your Name">
+                    <input type="text" name="email" class="input" placeholder="Enter Your Email">
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                    <input name="submit" value="SEND" id="send">
+                </form>
+            </div>      
         </section>
-    </div>
-
-<!---------Main Sections--------->
-        <main> 
-            <section id="main-section">
-                <div class="section-1">
-                    <h2 class="headings">SKILLS</h2>
-                    <img class="portrait" src="./Assets/Images/portfolio.png" alt="A portrait">
-                    <div class="languages">
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>MySQL</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div id="projects">
-                    <h2 class="headings">LATEST PROJECTS</h2>
-                    <div>
-                        <a href="https://savitamanchanda.github.io/Travel-Hub/"><img class="img-1" src="./Assets/Images/travelHub.png" alt="Homepage of my deployed travel website"></a>
-                        <a href="https://recipe-health-guru.herokuapp.com/"><img class="img-1" src="./Assets/Images/Health Recipe Guru.png" alt="Homepage of my delpoyed healthy recipe application"></a>
-                        <a href="https://angelajm6.github.io/Calendar-application/"><img class="img-2" src="./Assets/Images/calendar.png" alt="Homepage of my deployed calendar application"></a>
-                        <a href="https://angelajm6.github.io/Its_brickoutside/"><img class="img-3" src="./Assets/Images/weatherapp.png" alt="Homepage of my delpoyed weather application"></a>
-                    </div>
-                </div>
-
-                 <div id="contact">
-                    <h2 class="headings">CONTACT</h2>
-                    <form action="" class="form">
-                        <input type="text" name="name" class="input" placeholder="Enter Your Name">
-                        <input type="text" name="email" class="input" placeholder="Enter Your Email">
-                        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
-                        <input name="submit" value="SEND" id="send">
-                    </form>
-                 </div>      
-            </section>
-        
-        </main>
 
 <!------------footer----------->
         <footer class="footer"> 
             <h2>Made with ❤️️ by Angela</h2>
         </footer>
 
+        <script src="./Assets/js/script.js"></script>
     </body>
-
 </html>
